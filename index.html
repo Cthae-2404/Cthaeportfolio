@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Where math meets code: transforming problems into solutions</p>
+            <marquee behavior="" direction="left"> SITHANDAZILE MOYO</marquee>
+
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <div class="image-container"></div>
+            <img src="images/myprofile.jpg" alt="Sithandazile Moyo" class="profile-pic">
+        </div>
+            <p>I am Sithandazile Moyo a twenty one year old female currently pursuing a Bachelor of Science Honors Degree in Applied Mathematics and Computational Science with the Midlands State University, Gweru Zimbabwe. I'm passionate about using mathematical modelling and computational techniques to solve real world problems. With a strong foundation in mathematics, computing and statistics, I'm excited to apply my skills and knowledge to tackle  complex problems of various fields</p>
+    </section>
+
+    <section id="expertise" class="container">
+        <h2>Expertise / Areas of Interest</h2>
+        <ol>
+            <li>Web development</li>
+            <li>Mathematical modelling and simulation</li>
+            <li>Data analysis</li>
+            <li>Machine learning</li>
+        </ol>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Technical Skills</h2>
+        <p>Programming Languages: </p>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>R Studio </li>
+        <p>Tools/Technologies:</p>
+        <li>MATLAB</li>
+        <li>VS Code</li>
+        <li>Matpotlib</li>
+        <li>NumPy</li>
+    </section>
+
+   <section id="projects" class="container">
+    <h2>Projects</h2>
+    <article>
+        <h3>Project 1: Weather Forecasting</h3>
+        <p>Designed and developed a mobile app that helps users plan their daily activities based on accurate weather forecasts, enhancing their productivity and decision-making.</p>
+        <p>For more details, go to <a href="project1.html">this page</a>.</p>
+    </article>
+    <article>
+        <h3>Project 2: Population Dynamics</h3>
+        <p>Created a Population Tracker Application that used mathematical modeling and machine learning techniques to provide real-time population data and trends for different regions.</p>
+        <p>For more details, go to <a href="project2.html">this page</a>.</p>
+    </article>
+</section>
+
+    <footer id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>Call: +263777105791 or +263716103540</p>
+        <p>Email: <a href="mailto:sithandazilemoyo64@gmail.com">email me</a></p>
+        <p>Follow me on 
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+             |  <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/Cthae-2404" target="_blank">GitHub</a>
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </p>
+
+        <h3>Leave a Comment</h3>
+        <form id="comment-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

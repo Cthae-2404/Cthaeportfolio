@@ -13,11 +13,15 @@ Welcome to my portfolio! This website showcases my skills, projects, and experie
 - CSS
 - JavaScript
 
+## Live Demo
+You can view my portfolio live at: 
+[https://Cthae-2404.github.io/portfolio/](https://Cthae-2404.github.io/portfolio/)
+
 ## Installation
 To view my portfolio locally:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/portfolio.git
+    git clone https://github.com/Cthae-2404/portfolio.git
     ```
 2. Navigate to the project directory:
     ```bash
